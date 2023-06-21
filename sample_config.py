@@ -35,4 +35,4 @@ class Config(object):
     # database session name, example: xurluploader
     SESSION_NAME = os.environ.get("SESSION_NAME", "")
     # database uri (mongodb)
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("mongodb+srv://hariomhb:clXisZCyGbgMdmcz@cluster0.a0pje3s.mongodb.net/?retryWrites=true&w=majority", "")
